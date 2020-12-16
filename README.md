@@ -1,9 +1,10 @@
 # Azure Keyvault Key Rotation
-![alt text](keyvault.png "Arch Diagram")
 
 This sample code demonstrates how you can use Azure keyvault events to generate a new secret/key/certificate from event hubs and save details in an azure table that's accessible through an HTTP Azure functions endpoint. 
 
 ### Please note that this is code is for sample purposes and not intended for production use. It is offered with no guarantees.
+
+![alt text](keyvault.png "Arch Diagram")
 
 ## Details
 * Ensure your function has an identity with appropriate permissions in the keyvault access policies
