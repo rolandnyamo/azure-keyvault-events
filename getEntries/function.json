@@ -1,0 +1,27 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "name": "inputTable",
+      "direction": "in",
+      "type": "table",
+      "tableName": "secretChange",
+      "take": 50,
+      "connection": "storageaccountrgtodaf2a_STORAGE"
+    }
+  ]
+}
