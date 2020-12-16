@@ -1,1 +1,22 @@
-"Test Message"
+[
+  [
+    {
+      "id": "54550c4a-bb20-4463-8115-e9268cd49120",
+      "topic": "/subscriptions/xxxxxxxxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxx/resourceGroups/rg-name/providers/Microsoft.KeyVault/vaults/keyvaultname",
+      "subject": "keyname",
+      "eventType": "Microsoft.KeyVault.KeyNewVersionCreated",
+      "data": {
+        "Id": "https://vaultname.vault.azure.net/keys/keyname/some_version_number",
+        "VaultName": "vaultname",
+        "ObjectType": "Key",
+        "ObjectName": "keyname",
+        "Version": "some_version_number",
+        "NBF": null,
+        "EXP": 1671197966
+      },
+      "dataVersion": "1",
+      "metadataVersion": "1",
+      "eventTime": "2020-12-15T15:39:23.5431063Z"
+    }
+  ]
+]

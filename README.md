@@ -7,6 +7,7 @@ This sample code demonstrates how you can use Azure keyvault events to generate 
 ![alt text](keyvault.png "Arch Diagram")
 
 ## Details
+* *There's a test event in EventHubTrigger1/sample.dat with the desired format*
 * Ensure your function has an identity with appropriate permissions in the keyvault access policies
 * Ensure that your functions have the right bindings (edit the function.json files in each function folder)
 * Ensure that your function app has the correct environment variables
